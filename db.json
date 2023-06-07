@@ -1,9 +1,116 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "products": [
+    {
+      "name": "Bantal Leher",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIoQg6k9CAwUU_nTSx6pqLCnnGxFshuTYYI4yqrwswOw9sm-f5V6myMNJU1Df4i_c-pbHYLHxNiyx1NDk3cK_gcTVZvRZW4ytWCg0f5bov0Rje6tHNe5F-wjPEzrrmlSYPus0_zOKCnkoNSw0U3ZCLscl0SlMda1TYKYOpappTpoz5J7H2UsozSuQM/s981/Screenshot_2022-11-09-13-41-36-96_c37d74246d9c81aa0bb824b57eaf7062.jpg",
+      "description": "Mollitia provident ",
+      "price": 5800,
+      "stock": 74,
+      "category_id": "household_items",
+      "id": "3f0e9f4b-a05f-4fad-b6b2-9d6874b286c1",
+      "seller_id": "27b3f03e-db25-4b75-a16c-397468600efc",
+      "seller_name": "Seller Asli",
+      "created_on": "2023-06-07T07:52:23.467Z"
+    },
+    {
+      "name": "Kepak Mail",
+      "image": "https://pbs.twimg.com/media/EZLs4VmVcAAo1nk.jpg",
+      "description": "Aliquam tempor qui n",
+      "price": 15000,
+      "stock": 14,
+      "category_id": "health_products",
+      "id": "6c2a9182-34d7-41b6-acb8-596e15743738",
+      "seller_id": "27b3f03e-db25-4b75-a16c-397468600efc",
+      "seller_name": "Seller Asli",
+      "created_on": "2023-06-07T07:54:19.980Z"
+    },
+    {
+      "name": "Sapi Keren",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTimwO99tT7ujG2LPAVOdDGJLD9112GvtQAdxC_qup7sZu7w-ykcYLJS5olhfwIqlRgkxc&usqp=CAU",
+      "description": "Nemo blanditiis offi",
+      "price": 1400000,
+      "stock": 12,
+      "category_id": "household_items",
+      "id": "92cb3a39-f939-461e-89d7-874a7aa9864c",
+      "seller_id": "27b3f03e-db25-4b75-a16c-397468600efc",
+      "seller_name": "Seller Asli",
+      "created_on": "2023-06-07T07:55:10.885Z"
+    },
+    {
+      "name": "Ipsum aliquip distin",
+      "image": "https://i.pinimg.com/originals/ef/a5/a6/efa5a608a7fdf7b01870cb06ec5a5b4e.jpg",
+      "description": "Elit nulla nostrum ",
+      "price": 490000,
+      "stock": 18,
+      "category_id": "health_products",
+      "id": "e33a4ab7-48f8-41ff-892b-a0cb9be07860",
+      "seller_id": "a469d6e7-eaf0-47e0-816b-053280ffa969",
+      "seller_name": "Seller Palsu",
+      "created_on": "2023-06-07T07:57:17.967Z"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "orders": [
+    {
+      "id": "4ac1ec75-1b25-474b-a0f4-e8ac65116316",
+      "user_id": "1e83c612-6b4a-416a-ae70-ba80993fda0e",
+      "user_name": "Buyer Asli",
+      "dest_address": "jalan kucing2",
+      "shipping_price": 10000,
+      "waybill_number": 7404,
+      "status": "DELIVERY",
+      "total_price": 66600,
+      "payment_method": "qris",
+      "created_on": "2023-06-07T08:00:33.883Z",
+      "order_detail": [
+        {
+          "product_image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIoQg6k9CAwUU_nTSx6pqLCnnGxFshuTYYI4yqrwswOw9sm-f5V6myMNJU1Df4i_c-pbHYLHxNiyx1NDk3cK_gcTVZvRZW4ytWCg0f5bov0Rje6tHNe5F-wjPEzrrmlSYPus0_zOKCnkoNSw0U3ZCLscl0SlMda1TYKYOpappTpoz5J7H2UsozSuQM/s981/Screenshot_2022-11-09-13-41-36-96_c37d74246d9c81aa0bb824b57eaf7062.jpg",
+          "product_name": "Bantal Leher",
+          "product_qty": 2,
+          "product_price": 5800,
+          "product_seller_id": "27b3f03e-db25-4b75-a16c-397468600efc",
+          "product_seller_name": "Seller Asli"
+        },
+        {
+          "product_image": "https://pbs.twimg.com/media/EZLs4VmVcAAo1nk.jpg",
+          "product_name": "Kepak Mail",
+          "product_qty": 3,
+          "product_price": 15000,
+          "product_seller_id": "27b3f03e-db25-4b75-a16c-397468600efc",
+          "product_seller_name": "Seller Asli"
+        }
+      ]
+    }
   ],
-  "profile": { "name": "typicode" }
+  "users": [
+    {
+      "id": "27b3f03e-db25-4b75-a16c-397468600efc",
+      "name": "Seller Asli",
+      "email": "sellerasli@mailinator.com",
+      "password": "MTIz",
+      "address": "Minima dolor velit o",
+      "phone_number": 22,
+      "role": "Seller",
+      "created_on": "2023-06-07T04:29:28.259Z"
+    },
+    {
+      "id": "1e83c612-6b4a-416a-ae70-ba80993fda0e",
+      "name": "Buyer Asli",
+      "email": "buyerasli@mailinator.com",
+      "password": "MTIz",
+      "address": "Quia tempor quis qui",
+      "phone_number": 40,
+      "role": "Buyer",
+      "created_on": "2023-06-07T04:37:23.518Z"
+    },
+    {
+      "id": "a469d6e7-eaf0-47e0-816b-053280ffa969",
+      "name": "Seller Palsu",
+      "email": "hugyrovefu@mailinator.com",
+      "password": "MTIz",
+      "address": "Quos consectetur co",
+      "phone_number": 30,
+      "role": "Seller",
+      "created_on": "2023-06-07T07:51:47.458Z"
+    }
+  ]
 }
